@@ -2,7 +2,7 @@
     var strConn = "driver={sql server};server=QITBLRQIPL030;database=adventureworks;uid=sa;password=12345";
     objConnection.Open(strConn);
     var rs = new ActiveXObject("ADODB.Recordset");
-    var strQuery = "Delete from Person.Address";
+    var strQuery = "Insert into Person.Address";
     rs.Open(strQuery, objConnection);
     rs.MoveFirst();
     while (!rs.EOF) {
