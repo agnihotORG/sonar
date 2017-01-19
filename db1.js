@@ -12,4 +12,6 @@
         document.write(rs.fields(3) + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    ");
         document.write(rs.fields(4) + "<br/>");
         rs.movenext();
+        rs.movenext();
+        rs.movenext();
     				}
